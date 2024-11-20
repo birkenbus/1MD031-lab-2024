@@ -3,58 +3,61 @@
 <head>
     <title>Bellas Best Burgers</title>
     <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
+
 <body>
-    <header>
-    <h1> Welcome to Bellas Best Burgers</h1>
+    <header class="header">
+        <h1>Welcome to Bellas Best Burgers</h1>
     </header>
+
     <main>
-    <section>
+    <section id="burgers">
     <h2> Choose your burger</h2>
     <p>Explore our menu and select from a variety of mouthwatering options. From classic cheeseburgers to gourmet specialties, there’s something for everyone!</p>
     
-    <div style="display: inline-block;">
-    <h3>The Cheesehead Burger</h3>
-    <img src="https://img.freepik.com/premium-photo/classic-double-cheeseburger-with-melted-cheddar-wooden-tablet-burger-menu-junk-fast-food_875755-22571.jpg" 
-     alt="A delicious cheeseburger" 
-     title="Cheesehead Cheeseburger" 
-     style="width:100px;">
-     <ul>
-        <li>Beef patty (Halloumi patty available as a substitute)</li>
-        <li>Double cheddar cheese (Contains lactose)</li>
-        <li>Brioche bun (Contains gluten) </li>
-        <li>Crispy bacon</li>
-        <li>Caramelized onions</li>
-    </ul>
-    </div>  
-    <div style="display: inline-block;"> 
-        <h3>The Patriot Burger</h3>
-        <img src="https://realfoodbydad.com/wp-content/uploads/2019/07/Southern-BBQ-Burger-Real-Food-by-Dad-683x1024.jpg"
-         alt="A delicious BBQ burger" 
-         title="Patriot BBQ burger" 
-         style="width:100px;">
-         <ul>
-            <li>Beef patty (Halloumi patty available as a substitute)</li>
-            <li>Smoky BBQ sauce</li>
-            <li>Fried onion rings</li>
-            <li>Ranch dressing (Contains lactose)</li>
-            <li>Sesame seed bun (Contains gluten)</li>
-        </ul>
-        </div>  
-        <div style="display: inline-block;"> 
+    <!-- Wrapper for grid layout of burgers -->
+    <div class="burgerwrapper"> 
+        <div class="burger">
+            <h3>The Cheesehead Burger</h3>
+            <img src="https://img.freepik.com/premium-photo/classic-double-cheeseburger-with-melted-cheddar-wooden-tablet-burger-menu-junk-fast-food_875755-22571.jpg" 
+                alt="A delicious cheeseburger" 
+                title="Cheesehead Cheeseburger">
+            <ul>
+                <li>Beef patty (<span class="allergen"> Halloumi</span> patty available as a substitute)</li>
+                <li>Double cheddar cheese (<span class="allergen"> lactose</span>)</li>
+                <li>Brioche bun (<span class="allergen"> gluten</span>) </li>
+                <li>Crispy bacon</li>
+             <li>Caramelized onions</li>
+            </ul>
+        </div>
+        <div class="burger">
+            <h3>The Patriot Burger</h3>
+            <img src="https://realfoodbydad.com/wp-content/uploads/2019/07/Southern-BBQ-Burger-Real-Food-by-Dad-683x1024.jpg"
+                alt="A delicious BBQ burger" 
+                title="Patriot BBQ burger" >
+             <ul>
+                <li>Beef patty (<span class="allergen"> Halloumi</span> patty available as a substitute)</li>
+                <li>Smoky BBQ sauce</li>
+                <li>Fried onion rings</li>
+                <li>Ranch dressing (<span class="allergen"> lactose</span>)</li>
+                <li>Sesame seed bun (<span class="allergen"> gluten</span>)</li>
+            </ul>
+        </div>
+        <div class="burger">
             <h3>The Seahawk Supreme</h3>
             <img src="https://www.feastingathome.com/wp-content/uploads/2023/08/Salmon-Burgers-12.jpg" 
-             alt="A delicious cheeseburger" 
-             title="Cheesehead Cheeseburger" 
-             style="width:100px;">
+                alt="A delicious cheeseburger" 
+                title="Cheesehead Cheeseburger" >
             <ul>
                 <li>Grilled salmon patty (Halloumi patty available as a substitute)</li>
                 <li>Fresh avocado slices</li>
-                <li>Tangy dill sauce (Contains lactose)</li>
+                <li>Tangy dill sauce (<span class="allergen"> lactose</span>)</li>
                 <li>Arugula</li>
-                <li>Whole grain bun (Contains gluten)</li>
+                <li>Whole grain bun (<span class="allergen"> gluten</span>)</li>
             </ul>
-            </div>  
+        </div>
+    </div>
 
     </section>  
     
@@ -102,13 +105,17 @@
             <label for="undisclosed">Undisclosed</label>
         </p>
     </form>
+
     <button type="submit">
         <img src="https://cdn-icons-png.freepik.com/256/2435/2435326.png?semt=ais_hybrid" 
              style="width:20px; height:auto;">
         Send Info
     </button>
+
     </section>
     </main> 
+   
+   
     <footer>
         <hr>
         <p>&copy; 2024 Bella's Best Burgers. All rights reserved. Fictional Burgers for your Imagination! </p>

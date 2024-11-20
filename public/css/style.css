@@ -1,22 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Cormorant:wght@700&display=swap');
 body {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 12pt;
 }
 
-p {
-    color: red;
-}
-
-h1 {
-    font-family: 'Agbalumo';
-    font-size: 36pt;
-}
 main, header, footer, nav ul {
-    max-width: 40rem;
+    max-width: 60rem;
     margin: 0 auto 0 auto;
-}
-main {
-    background-color: bisque;
 }
 
 /* nav ul li {
@@ -24,27 +14,12 @@ main {
     background-color: grey;
     padding: 1em;
     margin: 1em;
-} */
-
-header {
-    background-image: url("../img/polacks.jpg");
-    background-size: cover;
-    overflow: hidden;
-    width: 100%;
-    height: 200px;
-    opacity: 0.5;
-}
-
-header h1 {
-    width:40rem;
-    margin: 0 auto;
-    text-align: center;
-}
+} 
 
 nav ul {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 9.25em);
-    gap: 1em;
+    grid-template-columns: repeat(auto-fill, 50rem);
+    gap: 1rem;
     padding: 0;
 }
 
@@ -61,4 +36,83 @@ nav li {
 .Master {
     color: green;
     font-weight: bold;
+}
+*/
+
+header {
+    background-image: url("https://www.splendia.com/wp-content/uploads/2024/03/Plus-beaux-endroits-New-York.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.3;
+}
+
+header h1 {
+    font-family:'Agbalumo';
+    color: white;
+    font-size: 3.5rem;
+    text-shadow: 6px 6px 12px rgba(0, 0, 0, 0.9); /* Gör texten mer läsbar */
+    text-align: center;
+}
+
+.allergen {
+    font-weight: bold;
+}
+
+button {
+    margin: 20px;
+  }
+
+button:hover {
+    cursor: pointer; 
+    background-color: gray;
+    transition: background-color 0.3s ease;
+}
+
+section {
+ margin: 20px 0;
+ padding: 10px;
+ width: 100%;
+ max-width: 60rem;
+ box-sizing: border-box;
+}
+  
+  div {
+    padding: 10px;
+  }
+
+  #burgers {
+    background-color: black;
+    color: white;
+    border: 2px dashed white;
+    padding: 10px; /* Ger lite utrymme mellan innehåll och kantlinje */
+  }
+
+  #contact {
+    border: 2px dashed black;
+    padding: 10px;
+}
+
+.burgerwrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 20px;
+    text-align: left;
+}
+
+.burger h3 {
+    text-align: center;
+}
+.burger img {
+    width: 100%; /* Gör så att bilderna anpassar sig till sin container */
+    height: 150px;
+    object-fit: cover;
+    display: block;
+
+
 }
