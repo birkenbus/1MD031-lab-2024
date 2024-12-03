@@ -1,21 +1,23 @@
-[{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
-},
-{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
-},
-{
-    "name": "Veggie Bliss", 
-    "kCal": 500, 
-    "url": "https://images-bonnier.imgix.net/files/ifo/production/20220412084608/Kødfri-burger-1.jpg?auto=compress,format&w=1024%201024w",
-    "lactose": false, 
-    "gluten": false
-}]
+[
+    {
+      "name": "The Cheesehead Burger",
+      "kCal": 800,
+      "lactose": true,
+      "gluten": true,
+      "img": "https://img.freepik.com/premium-photo/classic-double-cheeseburger-with-melted-cheddar-wooden-tablet-burger-menu-junk-fast-food_875755-22571.jpg"
+    },
+    {
+      "name": "The Patriot Burger",
+      "kCal": 950,
+      "lactose": false,
+      "gluten": true,
+      "img": "https://realfoodbydad.com/wp-content/uploads/2019/07/Southern-BBQ-Burger-Real-Food-by-Dad-683x1024.jpg"
+    },
+    {
+      "name": "The Seahawk Supreme",
+      "kCal": 600,
+      "lactose": true,
+      "gluten": false,
+      "img": "https://www.feastingathome.com/wp-content/uploads/2023/08/Salmon-Burgers-12.jpg"
+    }
+  ]
